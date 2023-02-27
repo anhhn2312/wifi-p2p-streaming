@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <!--Common-->
+    <string name="msg_some_error_occurred">Some error occurred</string>
+    <string name="msg_common_title_no_internet">No internet connection</string>
+    <string name="msg_common_content_no_internet">Please make sure that Wi-Fi or mobile data is turned on and try again.</string>
+    <string name="msg_error_no_data">No data available</string>
+    <string name="msg_error_network_cert_path_validator">A certificate error has occurred when connecting to the network</string>
+    <string name="msg_title_logout">Logout</string>
+    <string name="msg_exist_app">Do you want to close the App?</string>
+    <string name="msg_error_common">An error occurred.</string>
+    <string name="msg_success_common">Successfully</string>
+    <string name="msg_failed_common">Failed</string>
+    <string name="msg_service_unavailable">Service unavailable</string>
+</resources>

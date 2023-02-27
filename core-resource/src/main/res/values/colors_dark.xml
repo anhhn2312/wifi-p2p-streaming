@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Surface color-->
+    <color name="dark_window_background">#00282A</color>
+    <color name="dark_window_background_variant">#001B1D</color>
+
+    <!--Primary brand colors-->
+    <color name="dark_color_primary">#00282A</color>
+    <color name="dark_color_primary_variant">#001B1D</color>
+    <color name="dark_color_on_primary">@color/dark_text_primary</color>
+
+    <!--Secondary brand colors-->
+    <color name="dark_color_secondary">#00696F</color>
+    <color name="dark_color_secondary_variant">#00474B</color>
+    <color name="dark_color_on_secondary">@color/dark_text_primary</color>
+
+    <!--Accent colors-->
+    <color name="dark_color_accent">#00696F</color>
+
+    <!--Surface colors-->
+    <color name="dark_color_surface">#1AFFFFFF</color>
+    <color name="dark_color_surface_variant">#D9161616</color>
+    <color name="dark_color_surface_dialog">#414752</color>
+    <color name="dark_color_on_surface">#FFFFFF</color>
+    <color name="dark_color_on_surface_variant">#FFFFFF</color>
+
+    <!-- Error colors-->
+    <color name="dark_color_error">#FF8E8E</color>
+    <color name="dark_color_on_error">#FF8E8E</color>
+    <color name="dark_color_error_variant">#FF453A</color>
+
+    <!--Icon colors-->
+    <color name="dark_color_control_normal">#FFFFFF</color>
+    <color name="dark_color_control_highlight">@color/white_op_70</color>
+    <color name="dark_color_icon_tint_primary">#FFFFFF</color>
+    <color name="dark_color_icon_tint_secondary">#FFFFFF</color>
+    <color name="dark_color_icon_tint_tertiary">#FFFFFF</color>
+
+    <!--Text colors-->
+    <color name="dark_text_primary">#FFFFFF</color>
+    <color name="dark_text_secondary">#99FFFFFF</color>
+    <color name="dark_text_tertiary">#99FFFFFF</color>
+    <color name="dark_text_error">#FF8E8E</color>
+    <color name="dark_text_hint">#5CFFFFFF</color>
+
+    <!--Button colors-->
+    <color name="dark_button_primary">#99FFFFFF</color>
+    <color name="dark_button_primary_disabled">#1AFFFFFF</color>
+
+    <color name="dark_color_divider">#29FFFFFF</color>
+
+    <color name="dark_color_shimmer">#3D454D</color>
+    <color name="dark_color_shimmer_variant">#99FFFFFF</color>
+
+</resources>

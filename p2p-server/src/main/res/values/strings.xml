@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">P2P-Server</string>
+    <string name="group_created">Turned on server</string>
+    <string name="group_removed">Turned off server</string>
+</resources>

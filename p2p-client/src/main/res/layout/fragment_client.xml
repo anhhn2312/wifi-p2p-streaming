@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_no_connection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foreground="?defaultRoundRectRippleBackground"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingVertical="@dimen/dimen24dp"
+        android:paddingHorizontal="@dimen/dimen32dp"
+        app:layout_constraintBottom_toBottomOf="@id/previewLayout"
+        app:layout_constraintEnd_toEndOf="@id/previewLayout"
+        app:layout_constraintStart_toStartOf="@id/previewLayout"
+        app:layout_constraintTop_toTopOf="@id/previewLayout">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_connect_device" />
+
+        <com.andyha.coreui.base.ui.widget.textview.BaseTextView
+            style="@style/FontMedium.Primary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_a_device"
+            android:layout_marginTop="@dimen/dimen8dp"
+            android:textSize="@dimen/text_size_20" />
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/previewLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/dimen32dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@id/btnDevice"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivPreview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+        <com.andyha.coreui.base.ui.widget.textview.BaseTextView
+            android:id="@+id/tvQuality"
+            style="@style/FontMedium.Primary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen16dp"
+            android:background="@drawable/bg_video_quality_selection"
+            android:padding="@dimen/dimen4dp"
+            android:text="@string/sd_quality"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_14"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:id="@+id/progressbar"
+        android:layout_width="@dimen/dimen80dp"
+        android:layout_height="@dimen/dimen80dp"
+        android:indeterminate="true"
+        android:visibility="gone"
+        app:indicatorColor="?colorAccent"
+        app:layout_constraintBottom_toBottomOf="@id/previewLayout"
+        app:layout_constraintEnd_toEndOf="@id/previewLayout"
+        app:layout_constraintStart_toStartOf="@id/previewLayout"
+        app:layout_constraintTop_toTopOf="@id/previewLayout" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/btnDevice"
+        android:layout_width="@dimen/dimen64dp"
+        android:layout_height="@dimen/dimen64dp"
+        android:background="@drawable/bg_round_button_selector"
+        android:foreground="?defaultOvalRippleBackground"
+        android:src="@drawable/ic_device"
+        app:layout_constraintBottom_toBottomOf="@id/btnRecording"
+        app:layout_constraintEnd_toStartOf="@id/btnRecording"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnRecording" />
+
+    <com.andyha.coreui.base.ui.widget.textview.BaseTextView
+        android:id="@+id/tvDevice"
+        style="@style/FontRegular.Primary"
+        android:layout_marginStart="@dimen/dimen32dp"
+        android:background="@drawable/bg_text_badge"
+        android:ellipsize="end"
+        android:maxWidth="@dimen/dimen60dp"
+        android:layout_width="wrap_content"
+        android:maxLines="1"
+        android:padding="@dimen/dimen4dp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="@id/btnDevice"
+        app:layout_constraintTop_toTopOf="@id/btnDevice"
+        tools:text="Andy Phone"
+        tools:visibility="visible" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/btnRecording"
+        android:layout_width="@dimen/dimen80dp"
+        android:layout_height="@dimen/dimen80dp"
+        android:src="@drawable/ic_start_recording_selector"
+        android:layout_marginBottom="@dimen/dimen32dp"
+        android:background="@color/transparent"
+        android:foreground="?defaultOvalRippleBackground"
+        app:layout_constraintEnd_toStartOf="@id/btnCollections"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btnDevice" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/btnCollections"
+        android:layout_width="@dimen/dimen64dp"
+        android:layout_height="@dimen/dimen64dp"
+        android:background="@drawable/bg_round_button_selector"
+        android:foreground="?defaultOvalRippleBackground"
+        android:src="@drawable/ic_collections"
+        app:layout_constraintBottom_toBottomOf="@id/btnRecording"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btnRecording"
+        app:layout_constraintTop_toTopOf="@+id/btnRecording" />
+
+    <com.andyha.coreui.base.ui.widget.textview.BaseTextView
+        android:id="@+id/tvRecording"
+        style="@style/FontRegular.Primary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnRecording"
+        tools:text="Saving" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

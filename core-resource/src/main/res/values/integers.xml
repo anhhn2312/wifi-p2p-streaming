@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="max_length_input_name">64</integer>
+    <integer name="max_length_input_detail">255</integer>
+    <integer name="edt_type_normal">100</integer>
+    <integer name="edt_type_email">101</integer>
+    <integer name="edt_type_password">102</integer>
+    <integer name="edt_type_number">103</integer>
+
+    <integer name="edt_type_phone">104</integer>
+
+    <integer name="action_type_clear">110</integer>
+    <integer name="data_unknown">-1</integer>
+
+
+    <integer name="fade_through_duration">300</integer>
+    <integer name="shared_element_duration">300</integer>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="colorTint">#999999</color>
+    <color name="colorTrackScrollBar">#40FFFFFF</color> <!--25% transparent-->
+    <color name="colorThumbScrollBar">#A6FFFFFF</color> <!--65% transparent-->
+
+    <!-- START BaseTabLayout -->
+    <color name="base_tab_layout_default_background">#1FFFFFFF</color>
+    <color name="base_tab_layout_default_selected_tab_background">#29FFFFFF</color>
+    <!-- END BaseTabLayout -->
+</resources>

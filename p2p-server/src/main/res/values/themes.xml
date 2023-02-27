@@ -1,0 +1,15 @@
+<resources>
+
+    <style name="SplashTheme" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/light_window_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash</item>
+        <item name="postSplashScreenTheme">@style/Theme.Light</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="android:colorAccent">@color/light_color_accent</item>
+        <item name="android:navigationBarColor">@color/light_window_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActivityTransitions">true</item>`
+        <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
+    </style>
+</resources>

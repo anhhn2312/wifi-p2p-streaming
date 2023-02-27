@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.Light.NoActionBar" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="fontFamily">@font/montserrat_medium</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/transparent</item>
+    </style>
+
+    <style name="Theme.Light.Base" parent="Theme.Base">
+        <!-- Brand color-->
+        <item name="colorPrimary">@color/light_color_primary</item>
+        <item name="colorPrimaryVariant">@color/light_color_primary_variant</item>
+        <item name="colorOnPrimary">@color/light_color_on_primary</item>
+        <item name="colorSecondary">@color/light_color_secondary</item>
+        <item name="colorSecondaryVariant">@color/light_color_secondary_variant</item>
+        <item name="colorOnSecondary">@color/light_color_on_secondary</item>
+        <item name="colorAccent">@color/light_color_accent</item>
+        <item name="colorSurface">@color/light_color_surface</item>
+        <item name="colorSurfaceVariant">@color/light_color_surface_variant</item>
+        <item name="colorSurfaceDialog">@color/light_color_surface_dialog</item>
+        <item name="colorOnSurface">@color/light_color_on_surface</item>
+        <item name="colorOnSurfaceVariant">@color/light_color_on_surface_variant</item>
+        <item name="colorError">@color/light_color_error</item>
+        <item name="colorErrorVariant">@color/light_color_error_variant</item>
+        <item name="colorDivider">@color/light_color_divider</item>
+        <item name="colorShimmer">@color/light_color_shimmer</item>
+        <item name="colorShimmerVariant">@color/light_color_shimmer_variant</item>
+        <item name="colorControlNormal">@color/light_color_control_normal</item>
+        <item name="colorControlHighlight">@color/light_color_control_highlight</item>
+
+        <!--Nav bar-->
+        <item name="colorBottomNavigationTextActive">@color/light_text_primary</item>
+        <item name="colorBottomNavigationTextInactive">@color/light_text_secondary</item>
+
+        <!-- Text color-->
+        <item name="android:textColorPrimary">@color/light_text_primary</item>
+        <item name="android:textColorSecondary">@color/light_text_secondary</item>
+        <item name="android:textColorTertiary">@color/light_text_tertiary</item>
+        <item name="android:textColorHint">@color/light_text_hint</item>
+        <item name="textColorError">@color/light_text_error</item>
+
+        <!-- Icon color-->
+        <item name="colorIconTintPrimary">@color/light_color_icon_tint_primary</item>
+        <item name="colorIconTintSecondary">@color/light_color_icon_tint_secondary</item>
+        <item name="colorIconTintTertiary">@color/light_color_icon_tint_secondary</item>
+
+        <!-- Button color-->
+        <item name="colorButtonPrimary">@color/light_button_primary</item>
+        <item name="colorButtonPrimaryPressed">@color/light_button_primary_pressed</item>
+        <item name="colorButtonPrimaryDisabled">@color/light_button_primary_disabled</item>
+
+        <!-- Custom view's default style. -->
+        <item name="BaseTabLayoutStyle">@style/BaseTabLayoutStyle</item>
+    </style>
+
+    <style name="Theme.Light" parent="Theme.Light.Base">
+        <!-- Window attributes-->
+        <item name="android:windowBackground">@color/light_window_background</item>
+        <item name="windowBackgroundVariant">@color/light_window_background_variant</item>
+        <item name="android:navigationBarColor" >?colorPrimaryVariant</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- Dialog styles-->
+        <item name="android:dialogTheme">@style/DialogThemeLight</item>
+        <item name="android:alertDialogTheme">@style/DialogThemeLight</item>
+        <item name="android:colorEdgeEffect" >?colorPrimary</item>
+
+        <!-- View component style-->
+        <item name="android:toolbarStyle">@style/ToolbarStyleLight</item>
+        <item name="popupMenuStyle">@style/PopupMenuLight</item>
+        <item name="spinnerDropDownItemStyle">@style/PopupMenuLight</item>
+        <item name="actionModeBackground">?colorPrimary</item>
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+        <item name="fontFamily">@font/montserrat_medium</item>
+        <item name="colorDivider">@color/light_color_divider</item>
+        <item name="snackbarStyle">@style/Widget.SnackBar</item>
+        <item name="android:listDivider">@drawable/list_divider</item>
+    </style>
+
+    <style name="PopupMenuLight" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">@drawable/bg_popup_window</item>
+    </style>
+
+    <style name="DialogThemeLight" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:toolbarStyle">@style/ToolbarStyleLight</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/light_color_primary</item>
+        <item name="colorPrimaryDark">@color/light_color_primary_variant</item>
+        <item name="colorAccent">@color/light_color_accent</item>
+        <item name="android:windowBackground">@color/light_window_background</item>
+
+        <!-- Text color-->
+        <item name="android:textColorPrimary">@color/light_text_primary</item>
+        <item name="android:textColorSecondary">@color/light_text_secondary</item>
+        <item name="android:textColorTertiary">@color/light_text_tertiary</item>
+        <item name="android:textColorHint">@color/light_text_hint</item>
+        <item name="textColorError">@color/light_text_error</item>
+    </style>
+
+    <style name="ToolbarStyleLight">
+        <item name="selectableItemBackground">?android:selectableItemBackground</item>
+        <item name="android:textColorPrimary">@color/light_text_primary</item>
+        <item name="colorControlNormal">@color/light_color_control_normal</item>
+        <item name="colorControlHighlight">@color/light_color_control_highlight</item>
+        <item name="popupTheme">@style/PopupThemeLight</item>
+    </style>
+
+    <style name="PopupThemeLight" parent="ThemeOverlay.AppCompat">
+        <item name="android:colorBackground">@color/light_window_background</item>
+    </style>
+
+    <style name="Widget.App.CheckBoxLight" parent="Widget.MaterialComponents.CompoundButton.CheckBox">
+        <item name="buttonTint">@color/color_button_tint</item>
+    </style>
+
+    <style name="Theme.Light.SharedElementScreen">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+</resources>

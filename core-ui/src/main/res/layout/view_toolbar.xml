@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:gravity="start|center_vertical"
+    android:orientation="horizontal"
+    android:paddingEnd="@dimen/dimen20dp"
+    tools:background="@drawable/bg_app"
+    tools:layout_height="?android:actionBarSize">
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/imv_icon_start_toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/defaultBorderlessRippleBackground"
+        android:scaleType="centerCrop"
+        android:visibility="gone"
+        tools:ignore="ContentDescription"
+        tools:src="@drawable/ic_back_white"
+        tools:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/llTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="start|center_vertical"
+        android:orientation="vertical">
+
+        <com.andyha.coreui.base.ui.widget.textview.BaseTextView
+            android:id="@+id/tv_title_toolbar"
+            style="@style/FontSemiBold.Primary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="@dimen/text_size_18"
+            tools:text="title" />
+
+        <com.andyha.coreui.base.ui.widget.textview.BaseTextView
+            android:id="@+id/tv_sub_title_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?android:textColorPrimary"
+            android:visibility="gone"
+            tools:text="subtitle"
+            tools:visibility="visible" />
+
+    </LinearLayout>
+
+    <com.andyha.coreui.base.ui.widget.textview.BaseTextView
+        android:id="@+id/tv_icon_end"
+        style="@style/FontRegular.Primary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dimen2dp"
+        android:background="?attr/defaultBorderlessRippleBackground"
+        android:visibility="gone"
+        tools:text="All"
+        tools:visibility="visible" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/imv_icon_end_toolbar"
+        android:layout_width="@dimen/dimen30dp"
+        android:layout_height="@dimen/dimen30dp"
+        android:background="?attr/defaultBorderlessRippleBackground"
+        android:scaleType="centerInside"
+        android:visibility="gone"
+        tools:src="@drawable/ic_notifications_white"
+        tools:visibility="visible" />
+
+</LinearLayout>

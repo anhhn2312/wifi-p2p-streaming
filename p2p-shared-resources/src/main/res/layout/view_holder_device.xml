@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?defaultBorderlessRippleBackground"
+    android:paddingHorizontal="@dimen/dimen16dp"
+    android:paddingVertical="@dimen/dimen12dp">
+
+    <com.andyha.coreui.base.ui.widget.textview.BaseTextView
+        android:id="@+id/tvName"
+        style="@style/FontMedium.Primary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textSize="@dimen/text_size_16"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Andy phone" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivStatus"
+        android:layout_width="@dimen/dimen8dp"
+        android:layout_height="@dimen/dimen8dp"
+        android:layout_marginStart="@dimen/dimen8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvName"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/ic_available_dot" />
+
+    <com.andyha.coreui.base.ui.widget.textview.BaseTextView
+        android:id="@+id/tvConnect"
+        style="@style/CommonButton.Primary.FontRegular"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dimen32dp"
+        android:foreground="?defaultRoundRectRippleBackground"
+        android:paddingHorizontal="@dimen/dimen8dp"
+        android:paddingVertical="@dimen/dimen0dp"
+        android:text="@string/connect"
+        android:textSize="@dimen/text_size_12"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:id="@+id/connectingProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:indicatorColor="?colorAccent"
+        app:indicatorSize="@dimen/dimen24dp"
+        android:indeterminate="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/tvConnect"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivConnected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_connected"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/tvConnect"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,87 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <!--Common-->
+    <string name="common_btn_done">Done</string>
+    <string name="common_btn_add">Add</string>
+    <string name="common_btn_cancel">Cancel</string>
+    <string name="common_btn_continue">Continue</string>
+    <string name="common_btn_confirm">Confirm</string>
+    <string name="common_btn_remove">Remove</string>
+    <string name="common_btn_accept">Accept</string>
+    <string name="common_btn_back">Back</string>
+    <string name="common_btn_create">Create</string>
+    <string name="common_btn_save">Save</string>
+    <string name="common_btn_update">Update</string>
+    <string name="common_loading">Loading</string>
+    <string name="common_delete">Delete</string>
+    <string name="common_btn_no">No</string>
+    <string name="common_btn_yes">Yes</string>
+    <string name="common_btn_ok">OK</string>
+    <string name="common_btn_close">Close</string>
+    <string name="common_btn_clear">Clear</string>
+    <string name="common_btn_dismiss">Dismiss</string>
+    <string name="common_btn_remind_later">Remind Later</string>
+    <string name="common_btn_remind_me">Remind me</string>
+    <string name="common_next">Next</string>
+    <string name="common_edit">Edit</string>
+    <string name="common_change">Change</string>
+    <string name="common_agree">Agree</string>
+    <string name="empty_text">""</string>
+    <string name="common_setting">Setting</string>
+    <string name="common_btn_do_not_allow">Do not allow</string>
+    <string name="common_btn_go_to_settings">Settings</string>
+    <string name="common_btn_later">Later</string>
+    <string name="common_btn_go_to_setting">Go To Settings</string>
+    <string name="common_btn_notification">Notification</string>
+    <string name="common_on">On</string>
+    <string name="common_off">Off</string>
+    <string name="common_km">Km</string>
+    <string name="common_degree">℃</string>
+    <string name="common_dot_default">-</string>
+    <string name="common_three_dot_default">---</string>
+    <string name="common_empty_hour_minute">--:--</string>
+    <string name="common_btn_open">Open</string>
+    <string name="common_btn_unlock">Unlock</string>
+    <string name="common_error">Error</string>
+    <string name="common_unknown">Unknown</string>
+    <string name="common_input_text">Input text</string>
+    <string name="common_percent">%</string>
+    <string name="common_lit">L</string>
+    <string name="common_send">Send</string>
+    <string name="common_invalid">Invalid</string>
+    <string name="common_value_unknown">---</string>
+    <string name="common_strikethrough">-</string>
+    <string name="common_btn_set_time">Set time</string>
+
+    <string name="common_no_internet_connection">No internet connection</string>
+    <string name="common_connection_error_offline_title">Connect to the internet</string>
+    <string name="common_connection_error_offline_message">You\'re offline. Check your connection</string>
+    <string name="common_connection_error_unstable_title">Connection unstable</string>
+    <string name="common_connection_error_unstable_message">Please check your network and try again</string>
+    <string name="common_try_again_connection">Try again</string>
+    <string name="common_search_view_hint">Search here</string>
+    <string name="common_voice_search">Speak to search</string>
+    <string name="common_data_empty_title">Whoops!</string>
+    <string name="common_data_empty_message">No data found!</string>
+
+    <string name="common_lang_vn">Vietnamese</string>
+    <string name="common_lang_en">English</string>
+
+    <!-- Time range -->
+    <plurals name="time_range_seconds">
+        <item quantity="one">%s s</item>
+        <item quantity="other">%s s</item>
+    </plurals>
+    <plurals name="time_range_minutes">
+        <item quantity="one">%s min</item>
+        <item quantity="other">%s min</item>
+    </plurals>
+    <plurals name="time_range_hour">
+        <item quantity="one">%s hr</item>
+        <item quantity="other">%s hr</item>
+    </plurals>
+    <plurals name="time_range_day">
+        <item quantity="one">%s day</item>
+        <item quantity="other">%s days</item>
+    </plurals>
+</resources>

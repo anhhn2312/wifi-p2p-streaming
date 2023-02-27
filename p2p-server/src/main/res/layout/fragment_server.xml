@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/previewView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:implementationMode="compatible"
+        android:layout_marginBottom="@dimen/dimen32dp"
+        app:layout_constraintBottom_toTopOf="@id/btnDevice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:scaleType="fillCenter" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/btnDevice"
+        android:layout_width="@dimen/dimen64dp"
+        android:layout_height="@dimen/dimen64dp"
+        android:layout_marginBottom="@dimen/dimen32dp"
+        android:background="@drawable/bg_round_button_selector"
+        android:foreground="?defaultOvalRippleBackground"
+        android:src="@drawable/ic_device"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btnGroup"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.andyha.coreui.base.ui.widget.textview.BaseTextView
+        android:id="@+id/tvDevice"
+        style="@style/FontRegular.Primary"
+        android:layout_marginStart="@dimen/dimen32dp"
+        android:background="@drawable/bg_text_badge"
+        android:ellipsize="end"
+        android:maxWidth="@dimen/dimen60dp"
+        android:layout_width="wrap_content"
+        android:maxLines="1"
+        android:padding="@dimen/dimen4dp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="@id/btnDevice"
+        app:layout_constraintTop_toTopOf="@id/btnDevice"
+        tools:text="Andy Phone"
+        tools:visibility="visible" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/btnGroup"
+        android:layout_width="@dimen/dimen64dp"
+        android:layout_height="@dimen/dimen64dp"
+        android:foreground="?defaultOvalRippleBackground"
+        android:background="@drawable/bg_round_button_selector"
+        android:src="@drawable/ic_wifi_tether_off"
+        app:layout_constraintBottom_toBottomOf="@id/btnDevice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btnDevice"
+        app:layout_constraintTop_toTopOf="@id/btnDevice" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

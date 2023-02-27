@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- START BaseTabLayout -->
+    <attr name="BaseTabLayoutStyle" />
+    <declare-styleable name="BaseTabLayout">
+        <attr name="bt_layoutBackgroundColor" format="color" />
+        <attr name="bt_layoutBackgroundRadius" format="dimension" />
+        <attr name="bt_tabBackgroundRadius" format="dimension" />
+        <attr name="bt_tabTextAppearance" format="reference" />
+        <attr name="bt_selectedTabTextAppearance" format="reference" />
+        <attr name="bt_selectedTabBackgroundColor" format="color" />
+        <attr name="bt_selectedTabBackgroundMargin" format="dimension" />
+        <attr name="bt_changeTabAnimationDuration" format="integer" />
+        <attr name="bt_changeTabAnimationInterpolator" format="reference" />
+        <attr name="bt_entries" format="reference" />
+    </declare-styleable>
+    <!-- END BaseTabLayout -->
+
+    <!-- START ShimmerView -->
+    <declare-styleable name="ShimmerView">
+        <attr name="SV_itemLayout" format="reference" />
+        <attr name="SV_itemCount" format="integer" />
+        <attr name="SV_itemDividerDrawable" format="integer" />
+        <attr name="SV_itemDividerColor" format="reference|color" />
+        <attr name="SV_itemDividerHeight" format="dimension" />
+    </declare-styleable>
+    <!-- END ShimmerView -->
+
+    <attr name="defaultAppBackground" />
+
+    <!-- START ripple background-->
+    <attr name="defaultBorderlessRippleBackground" />
+    <attr name="defaultRectRippleBackground" />
+    <attr name="defaultRoundRectRippleBackground" />
+    <attr name="defaultOvalRippleBackground" />
+    <attr name="defaultTopItemBackground" />
+    <attr name="defaultTopItemBackgroundNoRipple" />
+    <attr name="defaultBottomItemBackground" />
+    <attr name="defaultBottomItemBackgroundNoRipple" />
+    <attr name="defaultMiddleItemBackground" />
+    <attr name="defaultMiddleItemBackgroundNoRipple" />
+    <attr name="defaultFullItemBackground" />
+    <attr name="defaultFullItemBackgroundNoRipple" />
+    <attr name="rippleColor" />
+    <attr name="maskRippleColor" />
+    <!-- END ripple background-->
+
+    <!-- START animation-->
+    <attr name="defaultInterpolator" />
+    <!-- END animation-->
+
+    <attr name="defaultPrimaryButtonBackground" />
+
+    <declare-styleable name="TransitionButton">
+        <attr name="progressColor" format="reference" />
+    </declare-styleable>
+
+
+    <declare-styleable name="CustomEditTextItem">
+        <attr name="inputType" format="reference" />
+        <attr name="titleValue" format="reference|string" />
+        <attr name="titleColor" format="reference|color" />
+        <attr name="areaValue" format="reference|string" />
+        <attr name="enableTitle" format="boolean" />
+        <attr name="itemEnable" format="boolean" />
+        <attr name="disableAnimationErrorMessage" format="boolean" />
+        <attr name="android:imeOptions" format="integer" />
+        <attr name="android:maxLength" format="integer" />
+        <attr name="actionType" format="integer" />
+        <attr name="colorDefault" format="reference|color" />
+        <attr name="colorFocus" format="reference|color" />
+        <attr name="colorError" format="reference|color" />
+        <attr name="iconAction" format="reference" />
+        <attr name="hintColor" format="reference|color" />
+        <attr name="hintValue" format="reference|string" />
+        <attr name="textColor" format="reference|color" />
+        <attr name="textAreaColor" format="reference|color" />
+        <attr name="text" format="reference|string" />
+        <attr name="customBackground" format="reference|integer" />
+        <attr name="checkValid" format="boolean" />
+        <attr name="validAcceptEmpty" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomItemSelectDate">
+        <attr name="dateValue" format="integer" />
+        <attr name="titleDate" format="reference|string" />
+        <attr name="isSelectDateItem" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="MaxHeightLayout">
+        <attr name="maxHeightDp" format="reference" />
+        <attr name="maxHeightPx" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="DataEmpty">
+        <attr name="emptyTitle" format="reference|string" />
+        <attr name="emptyMessage" format="reference|string" />
+    </declare-styleable>
+
+    <attr name="ratio">
+        <enum name="ratio_default" value="0" />
+        <enum name="ratio_16_9" value="1" />
+        <enum name="ratio_4_3" value="2" />
+        <enum name="ratio_square" value="3" />
+    </attr>
+
+    <attr name="roundedCornerRadius" format="dimension" />
+
+    <declare-styleable name="CustomImageView">
+        <attr name="ratio" />
+        <attr name="roundedCornerRadius" />
+    </declare-styleable>
+
+    <declare-styleable name="SwipeOption">
+        <attr name="normalBackgroundTint" format="color" />
+        <attr name="pressBackgroundTint" format="color" />
+        <attr name="dimBackgroundTint" format="color" />
+    </declare-styleable>
+
+    <attr name="state_error" format="boolean" />
+
+    <declare-styleable name="BaseEditText">
+        <attr name="state_error" />
+    </declare-styleable>
+
+    <declare-styleable name="BaseLinearLayout">
+        <attr name="state_error" />
+        <attr name="state_focused" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="HeaderView">
+        <attr name="HV_titleText" format="string" />
+        <attr name="HV_titleAction" format="string" />
+        <attr name="HV_showAction" format="boolean" />
+        <attr name="android:paddingStart" />
+        <attr name="android:paddingEnd" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andyha.coreui.base.ui.widget.MaxHeightLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_common_dialog"
+    android:orientation="vertical"
+    android:paddingStart="@dimen/dimen16dp"
+    android:paddingTop="@dimen/dimen16dp"
+    android:paddingEnd="@dimen/dimen16dp"
+    android:paddingBottom="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|start"
+            android:layout_marginEnd="@dimen/dimen16dp"
+            android:background="@drawable/ic_connection_error" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            style="@style/FontBold.Primary"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dimen8dp"
+            android:layout_weight="1"
+            android:gravity="start|top"
+            android:textSize="@dimen/text_size_20"
+            android:visibility="gone"
+            tools:text="Sample title"
+            tools:visibility="visible" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/ivClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|end"
+            android:layout_marginTop="@dimen/dimen3dp"
+            android:background="?attr/defaultBorderlessRippleBackground"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_close_white"
+            tools:visibility="visible" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvMessage"
+        style="@style/FontRegular.Primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen12dp"
+        android:layout_marginBottom="@dimen/dimen16dp"
+        android:gravity="start"
+        android:textSize="@dimen/text_size_14"
+        android:visibility="gone"
+        tools:text="Sample message"
+        tools:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvMessage2"
+            style="@style/FontSemiBold.Primary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen6dp"
+            android:gravity="start"
+            android:textSize="@dimen/text_size_16"
+            android:visibility="gone"
+            tools:text="Sample message 2"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tvQuestion"
+            style="@style/CommonButton.TextOnly.FontBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen4dp"
+            android:textSize="@dimen/text_size_14"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvMessage3"
+        style="@style/FontRegular.Primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen16dp"
+        android:gravity="start"
+        android:textSize="@dimen/text_size_14"
+        android:visibility="gone"
+        tools:text="A sample message"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/btnOption"
+        style="@style/CommonButton.TextOnly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen16dp"
+        android:text="@string/common_btn_ok"
+        android:textSize="@dimen/text_size_14"
+        android:visibility="gone"
+        tools:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/llOption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen16dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <TextView
+            android:id="@+id/btnOption1"
+            style="@style/CommonButton.TextOnly"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/text_size_14"
+            android:visibility="gone"
+            tools:text="OK"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/btnOption2"
+            style="@style/CommonButton.TextOnly"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen30dp"
+            android:layout_weight="1"
+            android:textSize="@dimen/text_size_14"
+            android:visibility="gone"
+            tools:text="Retry"
+            tools:visibility="visible" />
+    </LinearLayout>
+</com.andyha.coreui.base.ui.widget.MaxHeightLinearLayout>

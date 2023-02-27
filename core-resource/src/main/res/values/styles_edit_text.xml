@@ -1,0 +1,60 @@
+<resources>
+    <!--region EditText-->
+    <style name="CommonEditText">
+        <item name="android:padding">@dimen/dimen12dp</item>
+        <item name="android:background">@drawable/round_white_edit_text</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+    </style>
+
+    <style name="CommonEditText.Primary">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="CommonEditText.Secondary">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="CommonEditText.Primary.FontExtraLight">
+        <item name="android:fontFamily">@font/montserrat_extralight</item>
+    </style>
+
+    <style name="CommonEditText.Secondary.FontExtraLight">
+        <item name="android:fontFamily">@font/montserrat_extralight</item>
+    </style>
+
+    <style name="CommonEditText.Primary.FontMedium">
+        <item name="fontFamily">@font/montserrat_medium</item>
+    </style>
+
+    <style name="CommonEditText.Primary.FontRegular">
+        <item name="fontFamily">@font/montserrat_regular</item>
+    </style>
+
+    <style name="CommonEditText.Primary.FontSemiBold">
+        <item name="fontFamily">@font/montserrat_semibold</item>
+    </style>
+
+    <style name="CommonEditText.Primary.FontBold">
+        <item name="fontFamily">@font/montserrat_bold</item>
+    </style>
+
+    <style name="EditTextInline">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+        <item name="android:alpha">1</item>
+        <item name="android:paddingStart">@dimen/dimen12dp</item>
+        <item name="android:paddingEnd">@dimen/dimen12dp</item>
+        <item name="android:paddingTop">@dimen/dimen10dp</item>
+        <item name="android:paddingBottom">@dimen/dimen10dp</item>
+        <item name="android:backgroundTint">@color/transparent</item>
+    </style>
+
+    <style name="ContainEditText">
+        <item name="android:backgroundTint">@color/colorTint</item>
+        <item name="android:background">@drawable/round_white_edit_text</item>
+    </style>
+    <!--endregion-->
+</resources>

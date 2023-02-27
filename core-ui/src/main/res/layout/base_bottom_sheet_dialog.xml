@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="@dimen/dimen56dp"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/dimen24dp"
+        android:paddingEnd="@dimen/dimen24dp">
+
+        <com.andyha.coreui.base.ui.widget.textview.BaseTextView
+            android:id="@+id/tv_title"
+            style="@style/FontSemiBold.Primary"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:textSize="@dimen/text_size_18" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ic_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/defaultBorderlessRippleBackground"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_close_white" />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/divider"
+        layout="@layout/divider"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp" />
+
+</LinearLayout>

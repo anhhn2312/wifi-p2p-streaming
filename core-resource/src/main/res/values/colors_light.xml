@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Surface color-->
+    <color name="light_window_background">#E6E6E6</color>
+    <color name="light_window_background_variant">#E6E6E6</color>
+
+    <!--Primary brand colors-->
+    <color name="light_color_primary">#FFFFFF</color>
+    <color name="light_color_primary_variant">#FFFFFF</color>
+    <color name="light_color_on_primary">#000000</color>
+
+    <!--Secondary brand colors-->
+    <color name="light_color_secondary">#FFFFFF</color>
+    <color name="light_color_secondary_variant">#FFFFFF</color>
+    <color name="light_color_on_secondary">#000000</color>
+
+    <!--Accent colors-->
+    <color name="light_color_accent">#b01e28</color>
+
+    <!--Surface colors-->
+    <color name="light_color_surface">#FFFFFF</color>
+    <color name="light_color_surface_variant">#FFFFFF</color>
+    <color name="light_color_surface_dialog">#E2E2E2</color>
+    <color name="light_color_on_surface">#000000</color>
+    <color name="light_color_on_surface_variant">#000000</color>
+
+    <!-- Error colors-->
+    <color name="light_color_error">#FF8E8E</color>
+    <color name="light_color_on_error">#FF8E8E</color>
+    <color name="light_color_error_variant">#FF453A</color>
+
+    <!--Icon colors-->
+    <color name="light_color_control_normal">#000000</color>
+    <color name="light_color_control_highlight">@color/black_op_50</color>
+    <color name="light_color_icon_tint_primary">#000000</color>
+    <color name="light_color_icon_tint_secondary">#000000</color>
+    <color name="light_color_icon_tint_tertiary">#000000</color>
+
+    <!--Text colors-->
+    <color name="light_text_primary">#000000</color>
+    <color name="light_text_secondary">#99000000</color>
+    <color name="light_text_tertiary">#99000000</color>
+    <color name="light_text_error">#FF8E8E</color>
+    <color name="light_text_hint">#5C000000</color>
+
+    <!--Button colors-->
+    <color name="light_button_primary">#b01e28</color>
+    <color name="light_button_primary_pressed">#641218</color>
+    <color name="light_button_primary_disabled">#1AFFFFFF</color>
+
+    <color name="light_color_divider">#1A000000</color>
+
+    <color name="light_color_shimmer">#3D454D</color>
+    <color name="light_color_shimmer_variant">#99FFFFFF</color>
+
+</resources>

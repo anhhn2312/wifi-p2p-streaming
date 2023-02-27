@@ -1,0 +1,86 @@
+<resources>
+    <!--Home-->
+    <dimen name="toolbar_height">56dp</dimen>
+
+    <!--Text size-->
+    <dimen name="text_size_7">7sp</dimen>
+    <dimen name="text_size_8">8sp</dimen>
+    <dimen name="text_size_9">9sp</dimen>
+    <dimen name="text_size_10">10sp</dimen>
+    <dimen name="text_size_11">11sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_13">13sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_15">15sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_17">17sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_19">19sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_21">21sp</dimen>
+    <dimen name="text_size_22">22sp</dimen>
+    <dimen name="text_size_23">23sp</dimen>
+    <dimen name="text_size_24">24sp</dimen>
+    <dimen name="text_size_25">25sp</dimen>
+    <dimen name="text_size_26">26sp</dimen>
+    <dimen name="text_size_27">27sp</dimen>
+    <dimen name="text_size_28">28sp</dimen>
+    <dimen name="text_size_29">29sp</dimen>
+    <dimen name="text_size_30">30sp</dimen>
+    <dimen name="text_size_32">32sp</dimen>
+    <dimen name="text_size_35">35sp</dimen>
+    <dimen name="text_size_40">40sp</dimen>
+
+    <!--Dimen-->
+    <dimen name="dimen0dp">0dp</dimen>
+    <dimen name="dimen1dp">1dp</dimen>
+    <dimen name="dimen2dp">2dp</dimen>
+    <dimen name="dimen3dp">3dp</dimen>
+    <dimen name="dimen4dp">4dp</dimen>
+    <dimen name="dimen5dp">5dp</dimen>
+    <dimen name="dimen6dp">6dp</dimen>
+    <dimen name="dimen7dp">7dp</dimen>
+    <dimen name="dimen8dp">8dp</dimen>
+    <dimen name="dimen9dp">9dp</dimen>
+    <dimen name="dimen10dp">10dp</dimen>
+    <dimen name="dimen12dp">12dp</dimen>
+    <dimen name="dimen16dp">16dp</dimen>
+    <dimen name="dimen20dp">20dp</dimen>
+    <dimen name="dimen24dp">24dp</dimen>
+    <dimen name="dimen28dp">28dp</dimen>
+    <dimen name="dimen30dp">30dp</dimen>
+    <dimen name="dimen32dp">32dp</dimen>
+    <dimen name="dimen36dp">36dp</dimen>
+    <dimen name="dimen40dp">40dp</dimen>
+    <dimen name="dimen44dp">44dp</dimen>
+    <dimen name="dimen48dp">48dp</dimen>
+    <dimen name="dimen52dp">52dp</dimen>
+    <dimen name="dimen56dp">56dp</dimen>
+    <dimen name="dimen60dp">60dp</dimen>
+    <dimen name="dimen64dp">64dp</dimen>
+    <dimen name="dimen68dp">68dp</dimen>
+    <dimen name="dimen72dp">72dp</dimen>
+    <dimen name="dimen76dp">76dp</dimen>
+    <dimen name="dimen80dp">80dp</dimen>
+    <dimen name="dimen84dp">84dp</dimen>
+    <dimen name="dimen88dp">88dp</dimen>
+    <dimen name="dimen92dp">92dp</dimen>
+    <dimen name="dimen96dp">96dp</dimen>
+    <dimen name="dimen100dp">100dp</dimen>
+    <dimen name="dimen120dp">120dp</dimen>
+    <dimen name="dimen160dp">160dp</dimen>
+    <dimen name="dimen200dp">200dp</dimen>
+
+    <!-- START BaseTabLayout -->
+    <dimen name="base_tab_layout_default_background_radius">20dp</dimen>
+    <dimen name="base_tab_layout_default_selected_tab_background_margin">2dp</dimen>
+    <!-- END BaseTabLayout -->
+
+    <!-- for swipe option -->
+    <dimen name="elasticity_size">30dp</dimen>
+    <dimen name="swipe_option_shape_size">90dp</dimen>
+
+    <!-- Bottom sheet dialog -->
+    <dimen name="bottom_sheet_corner_radius">12dp</dimen>
+    <dimen name="bottom_sheet_top_padding">16dp</dimen>
+</resources>

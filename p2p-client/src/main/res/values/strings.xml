@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">P2P-Client</string>
+
+    <string name="add_a_device">Add a device</string>
+    <string name="saving_video">Saving video...</string>
+    <string name="video_saved_sucessfully">Video saved to sdcard/Download/P2P-Streaming</string>
+    <string name="video_saved_failed">Video saved failed</string>
+    <string name="sd_quality">SD</string>
+    <string name="hd_quality">HD</string>
+    <string name="full_hd_quality">Full HD</string>
+    <string name="encode_avc">AVC (H264)</string>
+    <string name="encode_hevc">HEVC (H265)</string>
+    <string name="encode_mpeg4">MPEG4</string>
+</resources>

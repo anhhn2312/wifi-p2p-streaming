@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        app:indicatorColor="@color/white"
+        app:indicatorSize="@dimen/dimen64dp" />
+
+    <com.andyha.coreui.base.ui.widget.textview.BaseTextView
+        android:id="@+id/tv_message"
+        style="@style/FontRegular.Primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dimen24dp"
+        android:layout_marginTop="@dimen/dimen16dp"
+        android:gravity="center"
+        android:textSize="@dimen/text_size_12" />
+</LinearLayout>

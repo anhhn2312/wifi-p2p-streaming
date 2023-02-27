@@ -1,0 +1,94 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="android:navigationBarColor">?colorSurfaceDialog</item>
+    </style>
+
+    <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/background_bottom_sheet_dialog_default</item>
+    </style>
+
+    <style name="CustomActivityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/nav_default_enter_anim</item>
+        <item name="android:activityOpenExitAnimation">@anim/nav_default_exit_anim</item>
+        <item name="android:activityCloseEnterAnimation">@anim/nav_default_pop_enter_anim</item>
+        <item name="android:activityCloseExitAnimation">@anim/nav_default_pop_exit_anim</item>
+    </style>
+
+    <style name="DialogAnimation" parent="Theme.MaterialComponents.Dialog.Alert">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+        <item name="android:colorControlNormal">?colorControlNormal</item>
+    </style>
+
+    <style name="DividerHorizontalCommon">
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="background">?colorDivider</item>
+        <item name="borderWidth">0.6dp</item>
+    </style>
+
+    <style name="activityFullScreenTheme">
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="p">shortEdges</item>
+    </style>
+
+    <!-- START BaseTabLayout -->
+    <style name="BaseTabLayoutStyle">
+        <item name="bt_layoutBackgroundColor">?colorSurface</item>
+        <item name="bt_layoutBackgroundRadius">@dimen/dimen20dp</item>
+        <item name="bt_tabBackgroundRadius">@dimen/dimen20dp</item>
+        <item name="bt_tabTextAppearance">@style/BaseTabTextAppearance</item>
+        <item name="bt_selectedTabTextAppearance">@style/BaseSelectedTabTextAppearance</item>
+        <item name="bt_selectedTabBackgroundColor">@color/base_tab_layout_default_selected_tab_background</item>
+        <item name="bt_selectedTabBackgroundMargin">@dimen/base_tab_layout_default_selected_tab_background_margin</item>
+        <item name="bt_changeTabAnimationDuration">300</item>
+        <item name="bt_changeTabAnimationInterpolator">@android:interpolator/fast_out_slow_in</item>
+    </style>
+
+    <style name="BaseTabTextAppearance" parent="android:TextAppearance">
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+    </style>
+
+    <style name="BaseSelectedTabTextAppearance" parent="android:TextAppearance">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+    </style>
+    <!-- END BaseTabLayout -->
+
+    <style name="BaseBottomSheetDialog" parent="@style/Theme.MaterialComponents.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="bottomSheetStyle">@style/BottomSheet</item>
+        <item name="android:statusBarColor">@color/transparent</item>
+    </style>
+
+    <style name="BottomSheet" parent="@style/Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bg_bottom_sheet_dialog</item>
+        <item name="android:backgroundTint">?colorSurfaceDialog</item>
+    </style>
+
+    <!-- START TagView-->
+    <style name="TagViewChoiceStyle" parent="@style/Widget.MaterialComponents.Chip.Choice">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textAppearance">@style/TagViewChoiceTextAppearance</item>
+        <item name="chipBackgroundColor">@color/color_item_tag_view_background</item>
+        <item name="rippleColor">?attr/maskRippleColor</item>
+        <item name="chipStartPadding">@dimen/dimen10dp</item>
+        <item name="chipEndPadding">@dimen/dimen10dp</item>
+        <item name="chipMinTouchTargetSize">@dimen/dimen32dp</item>
+    </style>
+
+    <style name="TagViewChoiceTextAppearance" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="fontFamily">@font/montserrat_regular</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <!-- END TagView-->
+
+</resources>

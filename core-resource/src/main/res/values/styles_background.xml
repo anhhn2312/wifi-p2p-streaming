@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppBackground">
+        <item name="TRX_backgroundDrawable">appBackground</item>
+    </style>
+
+    <style name="BorderlessRippleBackground">
+        <item name="TRX_backgroundDrawable">borderlessRipple</item>
+    </style>
+
+    <style name="RectRippleBackground">
+        <item name="TRX_backgroundDrawable">rectRipple</item>
+    </style>
+
+    <style name="RoundRectRippleBackground">
+        <item name="TRX_backgroundDrawable">roundRectRipple</item>
+    </style>
+
+    <style name="OvalRippleBackground">
+        <item name="TRX_backgroundDrawable">ovalRipple</item>
+    </style>
+
+    <style name="TopItemBackground">
+        <item name="TRX_backgroundDrawable">topItem</item>
+    </style>
+
+    <style name="TopItemNoRippleBackground">
+        <item name="TRX_backgroundDrawable">topItemNoRipple</item>
+    </style>
+
+    <style name="MiddleItemBackground">
+        <item name="TRX_backgroundDrawable">middleItem</item>
+    </style>
+
+    <style name="MiddleItemNoRippleBackground">
+        <item name="TRX_backgroundDrawable">middleItemNoRipple</item>
+    </style>
+
+    <style name="BottomItemBackground">
+        <item name="TRX_backgroundDrawable">bottomItem</item>
+    </style>
+
+    <style name="BottomItemNoRippleBackground">
+        <item name="TRX_backgroundDrawable">bottomItemNoRipple</item>
+    </style>
+
+    <style name="FullItemBackground">
+        <item name="TRX_backgroundDrawable">fullItem</item>
+    </style>
+
+    <style name="FullItemNoRippleBackground">
+        <item name="TRX_backgroundDrawable">fullItemNoRipple</item>
+    </style>
+
+    <style name="Divider">
+        <item name="TRX_backgroundColor">divider</item>
+    </style>
+</resources>

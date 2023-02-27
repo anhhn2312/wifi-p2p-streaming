@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andyha.coreui.base.ui.widget.ThemeRxRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/AppBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:background="@drawable/bg_app">
+
+    <com.andyha.coreui.base.ui.widget.NoInternetBanner
+        android:id="@+id/noInternetBanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <com.andyha.coreui.base.ui.widget.BaseToolbar
+        android:id="@+id/baseHeaderBar"
+        android:layout_width="match_parent"
+        android:layout_below="@id/noInternetBanner"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/transparent"
+        app:contentInsetStartWithNavigation="0dp"
+        app:title="@null"
+        tools:layout_height="@dimen/dimen56dp" />
+
+    <FrameLayout
+        android:id="@+id/base_contents"
+        android:layout_below="@id/baseHeaderBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</com.andyha.coreui.base.ui.widget.ThemeRxRelativeLayout>

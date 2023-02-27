@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <style name="Theme.Dark.Base" parent="Theme.Base">
+        <!-- Brand color-->
+        <item name="colorPrimary">@color/dark_color_primary</item>
+        <item name="colorPrimaryVariant">@color/dark_color_primary_variant</item>
+        <item name="colorOnPrimary">@color/dark_color_on_primary</item>
+        <item name="colorSecondary">@color/dark_color_secondary</item>
+        <item name="colorSecondaryVariant">@color/dark_color_secondary_variant</item>
+        <item name="colorOnSecondary">@color/dark_color_on_secondary</item>
+        <item name="colorAccent">@color/dark_color_accent</item>
+        <item name="colorSurface">@color/dark_color_surface</item>
+        <item name="colorSurfaceVariant">@color/dark_color_surface_variant</item>
+        <item name="colorSurfaceDialog">@color/dark_color_surface_dialog</item>
+        <item name="colorOnSurface">@color/dark_color_on_surface</item>
+        <item name="colorOnSurfaceVariant">@color/dark_color_on_surface_variant</item>
+        <item name="colorError">@color/dark_color_error</item>
+        <item name="colorErrorVariant">@color/dark_color_error_variant</item>
+        <item name="colorDivider">@color/dark_color_divider</item>
+        <item name="colorShimmer">@color/dark_color_shimmer</item>
+        <item name="colorShimmerVariant">@color/dark_color_shimmer_variant</item>
+        <item name="colorControlNormal">@color/dark_color_control_normal</item>
+        <item name="colorControlHighlight">@color/dark_color_control_highlight</item>
+
+        <!--Nav bar-->
+        <item name="colorBottomNavigationTextActive">@color/dark_text_primary</item>
+        <item name="colorBottomNavigationTextInactive">@color/dark_text_secondary</item>
+
+        <!-- Text color-->
+        <item name="android:textColorPrimary">@color/dark_text_primary</item>
+        <item name="android:textColorSecondary">@color/dark_text_secondary</item>
+        <item name="android:textColorTertiary">@color/dark_text_tertiary</item>
+        <item name="android:textColorHint">@color/dark_text_hint</item>
+        <item name="textColorError">@color/dark_text_error</item>
+
+        <!-- Icon color-->
+        <item name="colorIconTintPrimary">@color/dark_color_icon_tint_primary</item>
+        <item name="colorIconTintSecondary">@color/dark_color_icon_tint_secondary</item>
+        <item name="colorIconTintTertiary">@color/dark_color_icon_tint_secondary</item>
+
+        <!-- Button color-->
+        <item name="colorButtonPrimary">@color/dark_button_primary</item>
+        <item name="colorButtonPrimaryDisabled">@color/dark_button_primary_disabled</item>
+
+        <!-- Custom view's default style. -->
+        <item name="BaseTabLayoutStyle">@style/BaseTabLayoutStyle</item>
+    </style>
+
+    <style name="Theme.Dark" parent="Theme.Dark.Base">
+        <!-- Window attributes-->
+        <item name="android:windowBackground">@color/dark_window_background</item>
+        <item name="windowBackgroundVariant">@color/dark_window_background_variant</item>
+<!--        <item name="android:navigationBarColor">@color/dark_color_primary_variant</item>-->
+<!--        <item name="android:windowLightNavigationBar">false</item>-->
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Dialog styles-->
+        <item name="android:dialogTheme">@style/DialogThemeDark</item>
+        <item name="android:alertDialogTheme">@style/DialogThemeDark</item>
+        <item name="android:colorEdgeEffect">?colorPrimary</item>
+
+        <!-- View component style-->
+        <item name="android:toolbarStyle">@style/ToolbarStyleDark</item>
+        <item name="popupMenuStyle">@style/PopupMenuDark</item>
+        <item name="spinnerDropDownItemStyle">@style/PopupMenuDark</item>
+        <item name="actionModeBackground">?colorPrimary</item>
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+        <item name="fontFamily">@font/montserrat_medium</item>
+        <item name="colorDivider">@color/dark_color_divider</item>
+        <item name="snackbarStyle">@style/Widget.SnackBar</item>
+        <item name="android:listDivider">@drawable/list_divider</item>
+    </style>
+
+    <style name="PopupMenuDark" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">@drawable/bg_popup_window</item>
+    </style>
+
+    <style name="DialogThemeDark" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:toolbarStyle">@style/ToolbarStyleDark</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/dark_color_primary</item>
+        <item name="colorPrimaryDark">#26282C</item>
+        <item name="colorAccent">@color/dark_color_accent</item>
+        <item name="android:windowBackground">@color/dark_window_background</item>
+
+        <!-- Text color-->
+        <item name="android:textColorPrimary">@color/dark_text_primary</item>
+        <item name="android:textColorSecondary">@color/dark_text_secondary</item>
+        <item name="android:textColorTertiary">@color/dark_text_tertiary</item>
+        <item name="android:textColorHint">@color/dark_text_hint</item>
+        <item name="textColorError">@color/dark_text_error</item>
+    </style>
+
+    <style name="ToolbarStyleDark">
+        <item name="selectableItemBackground">?android:selectableItemBackground</item>
+        <item name="android:textColorPrimary">@color/dark_text_primary</item>
+        <item name="colorControlNormal">@color/dark_color_control_normal</item>
+        <item name="colorControlHighlight">@color/dark_color_control_highlight</item>
+        <item name="popupTheme">@style/PopupThemeDark</item>
+    </style>
+
+    <style name="PopupThemeDark" parent="ThemeOverlay.AppCompat">
+        <item name="android:colorBackground">@color/dark_window_background</item>
+    </style>
+
+    <style name="Widget.App.CheckBoxDark" parent="Widget.MaterialComponents.CompoundButton.CheckBox">
+        <item name="buttonTint">@color/color_button_tint</item>
+    </style>
+
+    <style name="Theme.Dark.SharedElementScreen">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="Widget.SnackBar" parent="Widget.MaterialComponents.Snackbar.FullWidth">
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="layout_constraintBottom_toBottomOf">parent</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+    </style>
+
+    <style name="Theme.Dark.NoActionBar" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="fontFamily">@font/montserrat_medium</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">@color/transparent</item>
+    </style>
+</resources>

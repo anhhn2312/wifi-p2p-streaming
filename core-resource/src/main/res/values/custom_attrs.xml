@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Default attrs-->
+    <attr name="windowBackgroundVariant" format="color|reference" />
+    <attr name="textColorError" format="color|reference" />
+    <attr name="colorIconTintPrimary" format="color|reference" />
+    <attr name="colorIconTintSecondary" format="color|reference" />
+    <attr name="colorIconTintTertiary" format="color|reference" />
+    <attr name="colorButtonPrimary" format="color|reference" />
+    <attr name="colorButtonPrimaryDisabled" format="color|reference" />
+    <attr name="colorButtonPrimaryPressed" format="color|reference" />
+    <attr name="colorDivider" format="color|reference" />
+    <attr name="colorSurfaceVariant" format="color|reference" />
+    <attr name="colorSurfaceDialog" format="color|reference" />
+    <attr name="colorOnSurfaceVariant" format="color|reference" />
+    <attr name="colorErrorVariant" format="color|reference" />
+    <attr name="colorShimmer" format="color|reference" />
+    <attr name="colorShimmerVariant" format="color|reference" />
+    <attr name="colorBottomNavigationTextActive" format="color|reference" />
+    <attr name="colorBottomNavigationTextInactive" format="color|reference" />
+
+    <!--This stylable is used to defined-->
+    <declare-styleable name="ThemeRx">
+        <attr name="TRX_textColor">
+            <enum name="primary" value="1" />
+            <enum name="secondary" value="2" />
+            <enum name="tertiary" value="3" />
+            <enum name="error" value="4" />
+        </attr>
+
+        <attr name="TRX_iconTint">
+            <enum name="primary" value="1" />
+            <enum name="secondary" value="2" />
+            <enum name="tertiary" value="3" />
+        </attr>
+
+        <attr name="TRX_backgroundDrawable">
+            <enum name="appBackground" value="1" />
+            <enum name="borderlessRipple" value="2" />
+            <enum name="rectRipple" value="3" />
+            <enum name="roundRectRipple" value="4" />
+            <enum name="ovalRipple" value="5" />
+            <enum name="topItem" value="6" />
+            <enum name="topItemNoRipple" value="7" />
+            <enum name="middleItem" value="8" />
+            <enum name="middleItemNoRipple" value="9" />
+            <enum name="bottomItem" value="10" />
+            <enum name="bottomItemNoRipple" value="11" />
+            <enum name="fullItem" value="12" />
+            <enum name="fullItemNoRipple" value="13" />
+            <enum name="buttonPrimary" value="14" />
+        </attr>
+
+        <attr name="TRX_backgroundColor">
+            <enum name="divider" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>

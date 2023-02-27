@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_connection_error" />
+
+        <com.andyha.coreui.base.ui.widget.textview.BaseTextView
+            android:id="@+id/tvTitle"
+            style="@style/FontBold.Primary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dimen24dp"
+            android:gravity="center"
+            android:textSize="@dimen/text_size_20"
+            tools:text="@string/common_connection_error_unstable_title" />
+
+        <com.andyha.coreui.base.ui.widget.textview.BaseTextView
+            android:id="@+id/tvMessage"
+            style="@style/FontRegular.Primary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dimen8dp"
+            android:alpha="0.5"
+            android:gravity="center"
+            android:paddingVertical="@dimen/dimen8dp"
+            android:textSize="@dimen/text_size_14"
+            tools:text="@string/common_connection_error_unstable_message" />
+    </LinearLayout>
+
+    <com.andyha.coreui.base.ui.widget.transitionbutton.TransitionButton
+        android:id="@+id/btnTryAgain"
+        style="@style/CommonButton.Primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginHorizontal="@dimen/dimen32dp"
+        android:layout_marginTop="@dimen/dimen16dp"
+        android:layout_marginBottom="@dimen/dimen24dp"
+        android:minHeight="@dimen/dimen44dp"
+        android:text="@string/common_try_again_connection" />
+</LinearLayout>

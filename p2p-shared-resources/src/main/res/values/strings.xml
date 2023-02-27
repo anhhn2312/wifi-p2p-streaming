@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="devices_bottom_sheet_header">Peer Devices</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="no_device_available">No device available</string>
+    <string name="discovering_peers">Discovering peers</string>
+    <string name="quality">Quality</string>
+    <string name="Encoding">Encoding</string>
+</resources>

@@ -1,0 +1,317 @@
+<resources>
+    <!--region FontRegular-->
+    <style name="FontRegular">
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="fontFamily">@font/montserrat_regular</item>
+    </style>
+
+    <style name="FontRegular.Primary">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="TRX_textColor">primary</item>
+    </style>
+
+    <style name="FontRegular.Secondary">
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="TRX_textColor">secondary</item>
+    </style>
+
+    <style name="FontRegular.Error">
+        <item name="android:textColor">?textColorError</item>
+        <item name="TRX_textColor">error</item>
+    </style>
+    <!--endregion-->
+
+    <!--region FontBold-->
+    <style name="FontBold">
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="fontFamily">@font/montserrat_bold</item>
+    </style>
+
+    <style name="FontBold.Primary">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="TRX_textColor">primary</item>
+    </style>
+
+    <style name="FontBold.Secondary">
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="TRX_textColor">secondary</item>
+    </style>
+
+    <style name="FontBold.Error">
+        <item name="android:textColor">?textColorError</item>
+        <item name="TRX_textColor">error</item>
+    </style>
+    <!--endregion-->
+
+    <!--region FontBoldItalic-->
+    <style name="FontBoldItalic">
+        <item name="android:fontFamily">@font/montserrat_bolditalic</item>
+        <item name="fontFamily">@font/montserrat_bolditalic</item>
+    </style>
+
+    <style name="FontBoldItalic.Primary">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="TRX_textColor">primary</item>
+    </style>
+
+    <style name="FontBoldItalic.Secondary">
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="TRX_textColor">secondary</item>
+    </style>
+
+    <style name="FontBoldItalic.Error">
+        <item name="android:textColor">?textColorError</item>
+        <item name="TRX_textColor">error</item>
+    </style>
+    <!--endregion-->
+
+    <!--region FontExtraBold-->
+    <style name="FontExtraBold">
+        <item name="android:fontFamily">@font/montserrat_extrabold</item>
+        <item name="fontFamily">@font/montserrat_extrabold</item>
+    </style>
+
+    <style name="FontExtraBold.Primary">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="TRX_textColor">primary</item>
+    </style>
+
+    <style name="FontExtraBold.Secondary">
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="TRX_textColor">secondary</item>
+    </style>
+
+    <style name="FontExtraBold.Error">
+        <item name="android:textColor">?textColorError</item>
+        <item name="TRX_textColor">error</item>
+    </style>
+
+    <style name="FontExtraBold.Title">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textSize">@dimen/text_size_25</item>
+        <item name="TRX_textColor">primary</item>
+    </style>
+    <!--endregion-->
+
+    <!--region FontExtraLight-->
+    <style name="FontExtraLight">
+        <item name="android:fontFamily">@font/montserrat_extralight</item>
+        <item name="fontFamily">@font/montserrat_extralight</item>
+    </style>
+
+    <style name="FontExtraLight.Primary">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="TRX_textColor">primary</item>
+    </style>
+
+    <style name="FontExtraLight.Secondary">
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="TRX_textColor">secondary</item>
+    </style>
+
+    <style name="FontExtraLight.Error">
+        <item name="android:textColor">?textColorError</item>
+        <item name="TRX_textColor">error</item>
+    </style>
+    <!--endregion-->
+
+
+    <!--region FontExtraLightItalic-->
+    <style name="FontExtraLightItalic">
+        <item name="android:fontFamily">@font/montserrat_lightitalic</item>
+        <item name="fontFamily">@font/montserrat_lightitalic</item>
+    </style>
+
+    <style name="FontExtraLightItalic.Primary">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="TRX_textColor">primary</item>
+    </style>
+
+    <style name="FontExtraLightItalic.Secondary">
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="TRX_textColor">secondary</item>
+    </style>
+
+    <style name="FontExtraLightItalic.Error">
+        <item name="android:textColor">?textColorError</item>
+        <item name="TRX_textColor">error</item>
+    </style>
+    <!--endregion-->
+
+
+    <!--region FontItalicVariableFontWeight-->
+    <style name="FontItalicVariableFontWght">
+        <item name="android:fontFamily">@font/montserrat_italic_variablefont_wght</item>
+        <item name="fontFamily">@font/montserrat_italic_variablefont_wght</item>
+    </style>
+
+    <style name="FontItalicVariableFontWght.Primary">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="TRX_textColor">primary</item>
+    </style>
+
+    <style name="FontItalicVariableFontWght.Secondary">
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="TRX_textColor">secondary</item>
+    </style>
+
+    <style name="FontItalicVariableFontWght.Error">
+        <item name="android:textColor">?textColorError</item>
+        <item name="TRX_textColor">error</item>
+    </style>
+    <!--endregion-->
+
+    <!--region FontMedium-->
+    <style name="FontMedium">
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+        <item name="fontFamily">@font/montserrat_medium</item>
+    </style>
+
+    <style name="FontMedium.Primary">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="TRX_textColor">primary</item>
+    </style>
+
+    <style name="FontMedium.Secondary">
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="TRX_textColor">secondary</item>
+    </style>
+
+    <style name="FontMedium.Error">
+        <item name="android:textColor">?textColorError</item>
+        <item name="TRX_textColor">error</item>
+    </style>
+    <!--endregion-->
+
+    <!--region FontMediumItalic-->
+    <style name="FontMediumItalic">
+        <item name="android:fontFamily">@font/montserrat_mediumitalic</item>
+        <item name="fontFamily">@font/montserrat_mediumitalic</item>
+    </style>
+
+    <style name="FontMediumItalic.Primary">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="TRX_textColor">primary</item>
+    </style>
+
+    <style name="FontMediumItalic.Secondary">
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="TRX_textColor">secondary</item>
+    </style>
+
+    <style name="FontMediumItalic.Error">
+        <item name="android:textColor">?textColorError</item>
+        <item name="TRX_textColor">error</item>
+    </style>
+    <!--endregion-->
+
+    <!--region FontSemiBold-->
+    <style name="FontSemiBold">
+        <item name="android:fontFamily">@font/montserrat_semibold</item>
+        <item name="fontFamily">@font/montserrat_semibold</item>
+    </style>
+
+    <style name="FontSemiBold.Primary">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="TRX_textColor">primary</item>
+    </style>
+
+    <style name="FontSemiBold.Secondary">
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="TRX_textColor">secondary</item>
+    </style>
+
+    <style name="FontSemiBold.Error">
+        <item name="android:textColor">?textColorError</item>
+        <item name="TRX_textColor">error</item>
+    </style>
+    <!--endregion-->
+
+    <!--region FontSemiBoldItalic-->
+    <style name="FontSemiBoldItalic">
+        <item name="android:fontFamily">@font/montserrat_semibolditalic</item>
+        <item name="fontFamily">@font/montserrat_semibolditalic</item>
+    </style>
+
+    <style name="FontSemiBoldItalic.Primary">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="TRX_textColor">primary</item>
+    </style>
+
+    <style name="FontSemiBoldItalic.Secondary">
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="TRX_textColor">secondary</item>
+    </style>
+
+    <style name="FontSemiBoldItalic.Error">
+        <item name="android:textColor">?textColorError</item>
+        <item name="TRX_textColor">error</item>
+    </style>
+    <!--endregion-->
+
+    <!--region FontBlack-->
+    <style name="FontBlack">
+        <item name="android:fontFamily">@font/montserrat_black</item>
+        <item name="fontFamily">@font/montserrat_black</item>
+    </style>
+
+    <style name="FontBlack.Primary">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="TRX_textColor">primary</item>
+    </style>
+
+    <style name="FontBlack.Secondary">
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="TRX_textColor">secondary</item>
+    </style>
+
+    <style name="FontBlack.Error">
+        <item name="android:textColor">?textColorError</item>
+        <item name="TRX_textColor">error</item>
+    </style>
+    <!--endregion-->
+
+    <!--region FontBlackItalic-->
+    <style name="FontBlackItalic">
+        <item name="android:fontFamily">@font/montserrat_blackitalic</item>
+        <item name="fontFamily">@font/montserrat_blackitalic</item>
+    </style>
+
+    <style name="FontBlackItalic.Primary">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="TRX_textColor">primary</item>
+    </style>
+
+    <style name="FontBlackItalic.Secondary">
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="TRX_textColor">secondary</item>
+    </style>
+
+    <style name="FontBlackItalic.Error">
+        <item name="android:textColor">?textColorError</item>
+        <item name="TRX_textColor">error</item>
+    </style>
+    <!--endregion-->
+
+    <!--region White Mulish Variable Font Weight-->
+    <style name="FontVariableFontWeight">
+        <item name="android:fontFamily">@font/montserrat_variablefont_wght</item>
+        <item name="fontFamily">@font/montserrat_variablefont_wght</item>
+    </style>
+
+    <style name="FontVariableFontWeight.Primary">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="TRX_textColor">primary</item>
+    </style>
+
+    <style name="FontVariableFontWeight.Secondary">
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="TRX_textColor">secondary</item>
+    </style>
+
+    <style name="FontVariableFontWeight.Error">
+        <item name="android:textColor">?textColorError</item>
+        <item name="TRX_textColor">error</item>
+    </style>
+    <!--endregion-->
+</resources>

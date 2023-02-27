@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="IconTintPrimary">
+        <item name="TRX_iconTint">primary</item>
+    </style>
+
+    <style name="IconTintSecondary">
+        <item name="TRX_iconTint">secondary</item>
+    </style>
+
+    <style name="IconTintTertiary">
+        <item name="TRX_iconTint">tertiary</item>
+    </style>
+</resources>
