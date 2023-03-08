@@ -75,6 +75,8 @@ object DependencyVersion {
     //PlayService
     const val PLAY_CORE_VERSION = "1.10.3"
     const val PLAY_LOCATION_VERSION = "19.0.1"
+    const val FIREBASE_ANALYTICS_VERSION = "19.0.1"
+    const val FIREBASE_CRASHLYTICS_VERSION = "18.2.1"
 
     // Testing
     const val JUNIT_VERSION = "4.13-beta-2"

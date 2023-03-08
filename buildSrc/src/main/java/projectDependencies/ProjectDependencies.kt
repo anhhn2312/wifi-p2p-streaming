@@ -15,6 +15,8 @@ import projectDependencies.DependencyVersion.CORE_VERSION
 import projectDependencies.DependencyVersion.COROUTINES_VERSION
 import projectDependencies.DependencyVersion.ESPRESSO_VERSION
 import projectDependencies.DependencyVersion.FINGERPRINT_VERSION
+import projectDependencies.DependencyVersion.FIREBASE_ANALYTICS_VERSION
+import projectDependencies.DependencyVersion.FIREBASE_CRASHLYTICS_VERSION
 import projectDependencies.DependencyVersion.FRAGMENT_KTX_VERSION
 import projectDependencies.DependencyVersion.GLIDE_VERSION
 import projectDependencies.DependencyVersion.GSON_VERSION
@@ -148,6 +150,11 @@ object ProjectDependencies {
     val playServices = arrayOf(
         "com.google.android.play:core:$PLAY_CORE_VERSION",
         "com.google.android.gms:play-services-location:$PLAY_LOCATION_VERSION",
+    )
+
+    val analytics = arrayOf(
+        "com.google.firebase:firebase-crashlytics-ktx:$FIREBASE_CRASHLYTICS_VERSION",
+        "com.google.firebase:firebase-analytics-ktx:$FIREBASE_ANALYTICS_VERSION",
     )
 
     val cameraX = arrayOf(

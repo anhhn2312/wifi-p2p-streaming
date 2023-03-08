@@ -1,0 +1,126 @@
+{
+  "project_info": {
+    "project_number": "254823573779",
+    "project_id": "wifi-p2p-streaming",
+    "storage_bucket": "wifi-p2p-streaming.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254823573779:android:5c5b21a3e22b45ead012e6",
+        "android_client_info": {
+          "package_name": "com.andyha.p2p.streaming.client"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "254823573779-3qa3ugef064o7m3tfv0vd7rh9nvlurqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbYqcPDdd4WIYFiqy-nZYVRpw2frZPBFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "254823573779-3qa3ugef064o7m3tfv0vd7rh9nvlurqs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254823573779:android:8b87706f6bea3c91d012e6",
+        "android_client_info": {
+          "package_name": "com.andyha.p2p.streaming.client.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "254823573779-3qa3ugef064o7m3tfv0vd7rh9nvlurqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbYqcPDdd4WIYFiqy-nZYVRpw2frZPBFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "254823573779-3qa3ugef064o7m3tfv0vd7rh9nvlurqs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254823573779:android:6c707445dba24000d012e6",
+        "android_client_info": {
+          "package_name": "com.andyha.p2p.streaming.server"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "254823573779-3qa3ugef064o7m3tfv0vd7rh9nvlurqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbYqcPDdd4WIYFiqy-nZYVRpw2frZPBFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "254823573779-3qa3ugef064o7m3tfv0vd7rh9nvlurqs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254823573779:android:ea785125470274efd012e6",
+        "android_client_info": {
+          "package_name": "com.andyha.p2p.streaming.server.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "254823573779-3qa3ugef064o7m3tfv0vd7rh9nvlurqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbYqcPDdd4WIYFiqy-nZYVRpw2frZPBFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "254823573779-3qa3ugef064o7m3tfv0vd7rh9nvlurqs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

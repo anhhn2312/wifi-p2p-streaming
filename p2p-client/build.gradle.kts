@@ -1,3 +1,4 @@
+import com.android.build.gradle.internal.api.BaseVariantOutputImpl
 import extension.*
 import projectConfig.*
 import projectDependencies.DependencyVersion.WORK_MANAGER_VERSION
@@ -11,6 +12,8 @@ plugins {
     id("kotlin-parcelize")
     id("kotlin-kapt")
     id("dagger.hilt.android.plugin")
+    id("com.google.gms.google-services")
+    id("com.google.firebase.crashlytics")
 }
 
 android {
@@ -49,6 +52,8 @@ android {
 
     buildTypes {
         getByName("debug") {
+            applicationIdSuffix = ".dev"
+            versionNameSuffix = "_dev"
             isMinifyEnabled = false
             isShrinkResources = false
             signingConfig = signingConfigs.getByName("debug")
@@ -57,6 +62,7 @@ android {
         getByName("release") {
             isMinifyEnabled = false
             isShrinkResources = false
+            isDebuggable = true
             signingConfig = signingConfigs.getByName("release")
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
@@ -64,15 +70,10 @@ android {
             )
         }
 
-        create("releaseDebuggable") {
-            initWith(getByName("release"))
-            isDebuggable = true
-            signingConfig = signingConfigs.getByName("release")
-            proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules-no-obfuscation.pro"
-            )
-            matchingFallbacks.add("release")
+        applicationVariants.all {
+            outputs.all {
+                (this as? BaseVariantOutputImpl)?.outputFileName = "P2P_Client_${versionName}_${getBuildTime()}.apk"
+            }
         }
     }
 
@@ -145,6 +146,7 @@ dependencies {
     implementations(ProjectDependencies.logging)
     implementations(ProjectDependencies.di)
     implementations(ProjectDependencies.database)
+    implementations(ProjectDependencies.analytics)
 
 
     kapts(ProjectDependencies.processing)

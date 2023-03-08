@@ -2,6 +2,8 @@ package extension
 
 import org.gradle.api.artifacts.dsl.DependencyHandler
 import projectConfig.AndroidConfig
+import java.text.SimpleDateFormat
+import java.util.*
 
 
 fun DependencyHandler.implementations(dependencies: Array<String>) {
@@ -51,3 +53,5 @@ fun getVersionName(): String {
 fun getVersionCode(): Int {
     return getVersionName().toInt()
 }
+
+fun getBuildTime(): String = SimpleDateFormat("yyMMdd", Locale.US).format(Date())
